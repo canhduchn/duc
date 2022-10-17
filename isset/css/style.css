@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#fff;
+    --black-color:#0000;
+    --text-white-color:#fff;
+    --text-black-color:#000;
+    --text-blue-color:#0A828F;
+    --font-roboto:'Roboto', sans-serif;
+}
+html,body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+    font-family: var(--font-roboto);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.hearder{
+ background-image: url(../img/header-bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#navbarNav{
+    justify-content:flex-end;
+}
+.container-fluid .navbar-brand{
+    color: #fff;
+    font-size: 50px;
+}
+.navbar-nav .nav-item .nav-link1{
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar-nav .nav-item a{
+    color: var(--white-color);
+    font-size: 20px;
+}
+.navbar-nav .nav-item:hover a{
+    color: var(--text-blue-color);
+    background-color: var(--white-color);
+}
+.nav_img img{
+    max-width: 270px;
+    width: 100%;
+    height: auto;
+}
+
+.khoangcach{
+    padding: 100px 0;
+}
+.tille{
+    color: var(--text-white-color);
+}
+.title2 h1{
+    text-align: center;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: inline-block;
+}
+.social p{
+    background-color: var(--white-color);
+    color: var(--text-blue-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 0;
+}
+.social a{
+    font-size: 56px;
+    color: #e3e3e3 ;
+    padding: 0 20px;
+}
+.social a:hover{
+    color: var(--text-white-color);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,225,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.title2{
+    padding-top: 50px;
+}
+.slide{
+    display: inline-flex;
+    align-items: center;
+}
+.slider .slick-initialized .slick-slider{
+    height: 400px;
+}
+
+.slider p{
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.tittle h1{
+    text-align: center;
+}
+.job-final{
+    background-color: #EEEEEE;
+    padding: 75px 0;
+}
+.job-final .job{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.job-final p{
+    text-align: center;
+    background-color: #000;
+    color: var(--text-white-color);
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+}
+.fa-solid {
+ color: #000;
+ font-size: 30px;
+}

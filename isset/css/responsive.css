@@ -1,0 +1,43 @@
+/* mobile and tablet */
+@media(max-width:1023px){
+    .khoangcach{
+        padding:10px 0;
+    }
+    .navbar-toggler {
+        border-color:white;
+      } 
+    .navbar-nav{
+        background-color: rgba(255,255,255,0.5)
+    }
+}
+
+/* tablet */
+@media(min-width:740px) and (max-width:1023px){
+    .social a{
+        padding: 0 5px;
+    }
+    .brand .row{
+        align-items: center;
+    }
+    .slider p{
+        padding: 50px 20px;  
+    }
+}
+
+/* mobile */
+@media(max-width:739px){
+
+.nav_img{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social a{
+    padding: 0 10px;
+}
+.slide .button{
+    display: none;
+}
+.slider p{
+    padding: 10px 5px;  
+}
+}
